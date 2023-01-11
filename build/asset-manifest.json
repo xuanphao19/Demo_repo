@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thutrangha/static/css/main.591ac791.css",
+    "main.js": "/thutrangha/static/js/main.e928c4a5.js",
+    "static/js/787.49aa606b.chunk.js": "/thutrangha/static/js/787.49aa606b.chunk.js",
+    "index.html": "/thutrangha/index.html",
+    "main.591ac791.css.map": "/thutrangha/static/css/main.591ac791.css.map",
+    "main.e928c4a5.js.map": "/thutrangha/static/js/main.e928c4a5.js.map",
+    "787.49aa606b.chunk.js.map": "/thutrangha/static/js/787.49aa606b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.591ac791.css",
+    "static/js/main.e928c4a5.js"
+  ]
+}
