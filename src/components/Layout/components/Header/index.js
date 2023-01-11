@@ -1,5 +1,9 @@
 function Header() {
-  return <h1>Header!</h1>
+  return (
+    <div>
+      <img src="../../../../../XuanPhao.ico" alt=""></img>
+    </div>
+  );
 }
 
 export default Header;
