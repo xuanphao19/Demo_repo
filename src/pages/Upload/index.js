@@ -1,5 +1,5 @@
 function Upload() {
-  return <h1>Upload pages cái con củ cặc gì ở đây thì lỗi nhảy </h1>;
+  return <h2>Upload pages cái con củ cặc gì ở đây thì lỗi nhảy </h2>;
 }
 
 export default Upload;

@@ -1,5 +1,5 @@
 function Profile() {
-  return <h1>Profile pages cái con củ cặc gì ở đây thì lỗi nhảy </h1>;
+  return <h2>Profile pages cái con củ cặc gì ở đây thì lỗi nhảy </h2>;
 }
 
 export default Profile;

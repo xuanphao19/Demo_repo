@@ -1,12 +1,20 @@
+/* eslint-disable no-unused-vars */
 import { Fragment } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from '@/Routes';
 import { DefaultLayout } from '@/components/Layout';
 
 function App() {
+  const [counter, setCounter] = useState(1);
+  const tangGia = (e) => {
+    setCounter(counter + 1);
+  };
   return (
     <Router>
       <div className="App">
+        <h1>{counter}</h1>
+        <button onClick={tangGia}>Tang Gia</button>
         <Routes>
           {publicRoutes.map((route, index) => {
             const Page = route.component;
